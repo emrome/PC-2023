@@ -1,0 +1,12 @@
+1. 
+
+
+
+## Resolver con PMA (Pasaje de Mensajes ASINCRÓNICOS) el siguiente problema. Simular la atención en un locutorio con 10 cabinas telefónicas, que tiene un empleado que se encarga de atender a los clientes. Hay N clientes que al llegar esperan hasta que el empleado les indica a que cabina ir, la usan y luego se dirigen al empleado para pagarle. El empleado atiende a los clientes en el orden en que hacen los pedidos, pero siempre dando prioridad a los que terminaron de usar la cabina. Nota: maximizar la concurrencia; suponga que hay una función Cobrar() llamada por el empleado que simula que el empleado le cobra al cliente 
+
+## Resolver con ADA la siguiente situación. En una oficina hay un empleado y P personas que van para ser atendidas para realizar un trámite. Cuando una persona llega espera a lo sumo 20 minutos a que comience a atenderla el empleado para resolver el trámite que va a hacer, y luego se va; si pasó el tiempo se retira sin realizar el trámite. El empleado atienden las solicitudes en orden de llegada. Cuando las P personas se han retirado el empelado también se retira. Nota: cada persona hace sólo un pedido y termina; suponga que existe una función Atender() llamada por el empleado que simula que el empleado está resolviendo el trámite del cliente; todas las tareas deben terminar 
+
+## Resolver con ADA el siguiente problema. Se debe simular un juego en el que participan 30 jugadores que forman 5 grupos de 6 personas. Al llegar cada jugador debe buscar las instrucciones y el grupo al que pertenece en un cofre de cemento privado para cada uno; para esto deben usar un único martillo gigante de a uno a la vez y de acuerdo al orden de llegada. Luego se debe juntar con el resto de los integrantes de su grupo y los 6 juntos realizan las acciones que indican sus instrucciones. Cuando un grupo termina su juego le avisa a un Coordinador que le indica en qué orden término el grupo. Nota: maximizar la concurrencia; suponer que existe una función Jugar() que simula que los 6 integrantes de un grupo están jugando juntos; suponga que existe una función Romper(grupo) que simula cuando un jugador está rompiendo su cofre con el martillo y le retorna el grupo al que pertenece.
+
+## Resolver con PMS (Pasaje de Mensajes SINCRÓNICOS) el siguiente problema. Hay un teléfono público que debe ser usado por U usuarios de acuerdo al orden de llegada (se debe usar con exclusión mutua). El usuario debe esperar su turno, usa el teléfono y luego lo deja para que el siguiente lo use. Nota: cada usuario usa sólo una vez el teléfono.
+ 
